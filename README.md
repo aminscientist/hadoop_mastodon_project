@@ -25,7 +25,7 @@ To set up the project, follow these steps:
 ```bash
 pip install -r requirements.txt
 
-##   usage
+## Usage
 
 ```bash
 python data_extraction.py
