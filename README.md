@@ -1,5 +1,4 @@
 # hadoop_mastodon_project
-# Project Name
 
 # Data Processing and Analysis Project
 
