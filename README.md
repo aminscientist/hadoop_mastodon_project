@@ -13,9 +13,6 @@ This project is designed to automate the collection, processing, and analysis of
 - [Data Extraction](#data-extraction)
 - [MapReduce Processing](#mapreduce-processing)
 - [HBase Storage](#hbase-storage)
-- [Airflow Orchestration](#airflow-orchestration)
-- [Analysis of Results](#analysis-of-results)
-- [Workflow Execution](#workflow-execution)
 - [License](#license)
 
 ## Installation
@@ -24,13 +21,24 @@ To set up the project, follow these steps:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 ```bash
 python data_extraction.py
+```
 
 ## MapReduce Processing
+
+```bash
+python mapreduce.py
+```
+## insert to HBase
+
+```bash
+python insert_hhbase.py
+```
 
 ## License
 This project is licensed under the MIT License.
