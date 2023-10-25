@@ -19,27 +19,31 @@ This project is designed to automate the collection, processing, and analysis of
 
 To set up the project, follow these steps:
 
+- Install Hadoop : https://learnubuntu.com/install-hadoop/
+- Install HBase :
+- Install Airflow :
+  
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## Data Extraction From Mastadon 
 
 ```bash
-python data_extraction.py
+python3 data_extraction.py
 ```
 
 ## MapReduce Processing
 
 ```bash
-python mapreduce.py
+python3 mapreduce.py
 ```
-## insert to HBase
+
+## HBase Storage
 
 ```bash
-python insert_hhbase.py
+python3 insert_hbase.py
 ```
-
 ## License
 This project is licensed under the MIT License.
 
