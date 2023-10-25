@@ -1,4 +1,4 @@
-# hadoop_mastodon_project
+# Hadoop_mastodon_project
 
 # Data Processing and Analysis Project
 
