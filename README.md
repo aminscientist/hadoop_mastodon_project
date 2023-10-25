@@ -49,6 +49,10 @@ python3 insert_hbase.py
 ```bash
 python3 mastodon_project.py
 ```
+## RGPD
+
+API mastodon respect already the RGPD
+
 
 ## License
 This project is licensed under the MIT License.
