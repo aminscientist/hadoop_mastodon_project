@@ -9,10 +9,10 @@ This project is designed to automate the collection, processing, and analysis of
 ## Project points
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Data Extraction](#data-extraction)
 - [MapReduce Processing](#mapreduce-processing)
 - [HBase Storage](#hbase-storage)
+- [Airflow](#Airflow)
 - [License](#license)
 
 ## Installation
@@ -20,8 +20,8 @@ This project is designed to automate the collection, processing, and analysis of
 To set up the project, follow these steps:
 
 - Install Hadoop : https://learnubuntu.com/install-hadoop/
-- Install HBase :
-- Install Airflow :
+- Install HBase : https://www.linkedin.com/pulse/how-install-apache-hbase-ubuntu-dr-virendra-kumar-shrivastava
+- Install Airflow : https://hevodata.com/learn/install-airflow/
   
 ```bash
 pip install -r requirements.txt
@@ -44,6 +44,12 @@ python3 mapreduce.py
 ```bash
 python3 insert_hbase.py
 ```
+## Airflow
+
+```bash
+python3 mastodon_project.py
+```
+
 ## License
 This project is licensed under the MIT License.
 
