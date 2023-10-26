@@ -46,9 +46,6 @@ class WordCounter(MRJob):
             for tag in post_tags:#tag["name"].encode().decode('unicode-escape')
                 yield "tag:"+str(post_id), tag["name"]
             yield "media:"+str(post_id), 1 if len(post_media) > 0 else 0
-    def combiner(self, key, values):
-        # yield key,max(values)
-        yield key,max(values)
 
     def reducer(self,key,values):
         # yield key,max(values)
