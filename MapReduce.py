@@ -14,9 +14,6 @@ class MapReduce(MRJob):
             # yield(f"followers:{username}",followers)
             # yield(username, 1)
 
-    def combiner(self, key, values):
-        yield(key, sum(values))
-    
     def reducer(self,key,values):
         yield(key, sum(values))
         
