@@ -49,10 +49,8 @@ python3 insert_hbase.py
 ```bash
 python3 mastodon_project.py
 ```
-## RGPD
-
-API mastodon respect already the RGPD
-
+## GDPR
+Our project places a high priority on ensuring the privacy and GDPR compliance of Mastodon users. We only gather and handle personal data with explicit consent or when legally required, strictly for defined purposes. Robust security measures safeguard the data, and users retain the rights to access, correct, delete, or restrict processing. Our data retention practices adhere to legal standards, and our transparent privacy policy provides comprehensive details on all aspects.
 
 ## License
 This project is licensed under the MIT License.
